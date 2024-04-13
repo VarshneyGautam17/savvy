@@ -1,0 +1,9 @@
+.footer-links a{
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    margin-top: 0.2rem;
+    font-weight: 500;
+}
+.footer-links a:hover{
+    color: white;
+}

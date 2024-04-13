@@ -1,0 +1,61 @@
+#grad {
+    background-image: linear-gradient(#00b4eb,white,#00b4eb,white);
+    height: auto;
+    padding-top: 3rem;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social-icons-class{
+    position: fixed;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.258);
+    padding-top: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+.social-icons{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.social-icons:hover{
+    transform: scale(1.1);
+}
+.button-class{
+    background-color: #00b4eb;
+}
+.button-class:hover{
+    background-color: #03b9f1d3;
+    color: white;
+}
+.parallax{
+    background-image:url("../images/snap3.png");
+    height: 100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.benifits{
+    background-color: #00000046;
+    height: auto;
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
+}
+.list {
+    list-style:square;
+}
+.list li{
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.3rem;
+    /* text-shadow: 2px 2px 4px black; */
+}
+
