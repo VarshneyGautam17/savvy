@@ -92,7 +92,7 @@ function Work() {
               </span>
               <h5 className="my-3 text-center">Document</h5>
             <p className="text-center">
-              Savvy will ask for some documents (PAN, Adhar, etc.)
+              Savvy will ask for some documents (PAN, Aadhar, etc.)
             </p>
             </div>
           </li>
@@ -109,8 +109,7 @@ function Work() {
               </span>
               <h5 className="my-3 text-center">Discussion</h5>
             <p className="text-center">
-            Savvy will discuss and explain your income,
-              taxes, savings, refunds, and investments.
+            Savvy will discuss and explain you on the components of your income, taxes thereon, related savings/refunds and investments.
             </p>
             </div>
           </li>

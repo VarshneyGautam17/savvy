@@ -108,8 +108,7 @@ function Maincon1() {
           </div>
           <div className="col-lg-8 col-md-8 col-sm-8  d-flex align-items-center">
             <h6 className="text-start" style={{ fontWeight: "bold" }}>
-              We understand the struggles of the salaried class. We're here to
-              building long-term relationships with our clients.
+              We understand the struggles of the salaried class. We strive to build long-term relationships with our clients.
             </h6>
           </div>
         </div>
@@ -121,9 +120,7 @@ function Maincon1() {
             <div className="ulwhy-savvy">
               <h6 className="text-start" style={{ fontWeight: "bold" }}>
                 Just like businesses have their trusted financial consultants,
-                TaxSavvy will be your permanent tax advisor. We'll be by your
-                side throughout the year, offering comprehensive services beyond
-                just filing ITR, such as:
+                TaxSavvy will be your permanent tax advisor. As a year-round partner, we will offer a comprehensive range of services beyond just filing ITR, such as:
               </h6>
               <ul>
                 <li>
@@ -133,18 +130,15 @@ function Maincon1() {
                 <li>- maximum income tax refund</li>
                 <li>- PF related assistance</li>
                 <li>
-                  - Access to network of our affiliations such as: loan, credit
-                  card, Insurance, Etc.
+                  - Access to our network of affiliates such as loans, credit cards, insurance, etc.
                 </li>
                 <li>- Job change tax implications</li>
                 <li>- Investment Advisory</li>
                 <li>- Advance Tax Planning</li>
                 <li>- Salary Structure Designing,</li>
                 <li>- Personalized financial assistance.</li>
-                <li>
-                  - We are just a call or message away anytime during the year
-                </li>
-                <li>&nbsp; and many more...</li>
+                <p className="mt-2">&nbsp;Feel free to reach out to us at any time during the year.
+                </p>
               </ul>
             </div>
           </div>
@@ -155,8 +149,7 @@ function Maincon1() {
           </div>
           <div className="col-lg-8 col-md-8 col-sm-8  d-flex align-items-center">
             <h6 className="text-start" style={{ fontWeight: "bold" }}>
-              Don't settle for impersonal tax services. Choose TaxSavvy for a
-              personalized, proactive approach to managing your taxes. Let us be
+              Don't settle for impersonal tax services. Choose TaxSavvy for a personalized and proactive approach to manage your taxes. Let us be
               your financial companion on the journey to financial success.
             </h6>
           </div>
@@ -270,8 +263,7 @@ function Maincon1() {
                 <h4>Income Analysis and Discussion</h4>
 
                 <p>
-                  Savvy makes you understand each and everything about your
-                  Income,Taxes, Savings and Investments.
+                Savvy makes it easy for you to understand all the aspects of your income, taxes, savings, and investments.
                 </p>
               </div>
             </div>
@@ -315,7 +307,7 @@ function Maincon1() {
                 <h4>Query and Discussion</h4>
                 <p>
                   Discusion on all of your questions related to Income, Savings,
-                  Future guidance, Inventment and anything you want!
+                  Future guidance, Investments and anything you want!
                 </p>
               </div>
             </div>
@@ -438,8 +430,8 @@ function Maincon1() {
                   </span>
                 </h2>
                 <p className="pt-2">
-                  Not covered with these Plans ? Connect with us , we ensure to
-                  offer the best prices depending upon YOUR CASE , we don't let
+                  Not covered with these Plans ? Connect with us, we ensure to
+                  offer the best prices depending upon YOUR CASE, we don't let
                   our prices turn you away.
                 </p>
                 <p>We follow, serve first and pay later</p>

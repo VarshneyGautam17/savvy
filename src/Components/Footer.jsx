@@ -29,7 +29,7 @@ function Footer() {
             </div>
             <div>
               <p className="px-3 text-center m-0">
-              we're here to bridge the gap and revolutionize the way salaried
+              We're here to bridge the gap and revolutionize the way salaried
               individuals manage their Income Tax Return (ITR).
               </p>
             </div>
