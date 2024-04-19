@@ -1,93 +1,91 @@
 import React from "react";
 import "../Style/Maincon1.css";
-import man from "../images/man-suit-tie_3729.png";
-import profit from "../images/profit_7314686.png";
+import man from "../images/mainlogo.png";
+import profit from "../images/profit.png";
 
-import tax from "../images/taxes_6045320.png";
-import contract from "../images/contract_8117562.png";
+import tax from "../images/tax.png";
+import contract from "../images/computer.png";
+import visa from "../images/visa.png";
+import network from "../images/network.png";
+import government from "../images/government-scheme.png";
+import insurance from "../images/insurance.png";
+import loan from "../images/loan.png";
+import health from "../images/health.png";
+import financial from "../images/financial.png";
+import frecord from "../images/frecord.png";
 
-import { BiTask } from "react-icons/bi";
-import correct from "../images/check-mark.png"
-import { IoPerson } from "react-icons/io5";
-import { TiDocumentText } from "react-icons/ti";
 import { MdOutlineQuestionMark } from "react-icons/md";
-import { GiDiscussion } from "react-icons/gi";
-import { MdFileDownloadDone } from "react-icons/md";
+
 import { MdUploadFile } from "react-icons/md";
-import facebook from "../images/facebook.png";
+
 import { FaRegMoneyBillAlt } from "react-icons/fa";
-import insta from "../images/instagram.png";
-import linked from "../images/linkedin.png";
-import twitter from "../images/twitter.png";
-import whatsapp from "../images/whatsapp.png";
-import discussion from "../images/discussion.jpg";
+
+import discussion from "../images/diss.png";
 import { MdCurrencyRupee } from "react-icons/md";
+import retur from "../images/taxlogo.png";
+import refund from "../images/track-it-refund (1).png";
 import WhyUs from "./WhyUs";
-import aisupport from "../images/aisupport.png";
-import plan from "../images/Text page.jpg";
+import thinking from "../images/thinking.png";
+import partenership from "../images/parternership.png";
+import img2why from "../images/img2why.png";
+
+import Work from "./Work";
 
 function Maincon1() {
   return (
     <>
-      <div className="social-icons-class">
-        <div className="m-1">
-          <a href="https://www.facebook.com/profile.php?id=100094092183646&mibextid=kFxxJD" target="_blank">
-          <img src={facebook} className="social-icons" alt="image not load" />
-          </a>
-        </div>
-        <div className="">
-          <a href="https://www.instagram.com/taxsavvy.in?igsh=ZXF5dHRkN3pyeGlw&utm_source=qr" target="_blank">
-          <img
-            src={insta}
-            className="social-icons"
-            alt="image not load"
-            style={{ width: "2.7rem", height: "2.2rem" }}
-            />
-            </a>
-        </div>
-        <div className="m-1">
-          <a href="https://www.linkedin.com/company/taxsavvy/" target="_blank">
-          <img src={linked} className="social-icons" alt="image not load" />
-          </a>
-        </div>
-        <div className="m-1">
-          <a href="https://x.com/mytaxsavvy?s=11&t=GEEFJAg7LB8D0Tgsk2vF5w" target="_blank">
-          <img src={twitter} className="social-icons" alt="image not load" />
-          </a>
-        </div>
-        <div className="m-1">
-          <a href="https://wa.me/+917900799900" target="_blank">
-          <img src={whatsapp} className="social-icons" alt="image not load" />
-          </a>
-        </div>
-      </div>
+      
+
       <div id="grad">
         <div className="d-flex justify-content-evenly px-3 align-items-center flex-wrap">
           <div className="col-lg-5 col-sm-12 col-md-6 ">
-            <h1>Grow Savings, Save Money &amp; Time</h1>
-            <h2>Professional Support for all</h2>
-            <h2>Customized Investment Tips</h2>
-            <p className="mt-3">
-              We provide professional support in the most convenient and user
-              friendly way by assigning a dedicated savvy (expert) for tax
-              return filing and financial services for individuals, SMEs and
-              enterprises with Income Tax Returns, GST, and MORE.
-            </p>
+            <h1 style={{ fontSize: "2rem" }}>
+              Do you find yourself
+            </h1>
+            <h1>
+             <span
+                style={{
+                  fontSize: "2.4rem",
+                  color: "#00b4eb",
+                  fontWeight: "bold",
+                }}
+              >
+                Overwhelmed and Confused
+              </span>
+             </h1>
+             <h1 style={{fontSize :"2rem"}}>
+             Every tax season?
+             </h1>
+            <h5 style={{color:"gray"}}>
+              We're here to bridge the gap and revolutionize the way salaried
+              individuals manage their Income Tax Return (ITR).
+            </h5>
+            
           </div>
           <div
-            className="col-lg-4 col-sm-12 col-md-6 p-5"
-            style={{ borderRadius: "1rem", backgroundColor: "#fdfdfdec" }}
+            className="col-lg-4 col-sm-12 col-md-6 p-3"
+            style={{
+              borderRadius: "1rem",
+              backgroundColor: "#00c8ff10",
+              border: "5px solid rgba(0,100,200,0.07)",
+            }}
           >
             <div className="text-center py-3">
-              <img src={man} style={{ width: "8rem" }} alt="" />
+              <img
+                src={man}
+                style={{ width: "12rem", borderRadius: "1rem" }}
+                alt=""
+              />
             </div>
             <h4 className="text-center">Get a Tax Savvy (Expert/CA)</h4>
-            <p>
+            <p className="text-center">
               Get your Savvy (Expert/CA) to do tax filing for you. It is
               convenient &amp; fast with maximum refund calculated for you.
             </p>
             <div className="d-flex justify-content-center ">
-              <button className="btn btn-info btn-sm">Conncet Us</button>
+              <a href="https://wa.me/+917900799900" target="_blank">
+                <button className="btn btn-info btn-sm">Connect Now</button>
+              </a>
             </div>
           </div>
         </div>
@@ -99,9 +97,76 @@ function Maincon1() {
           />
         </svg>
       </div>
-      <div style={{ height: "auto" }} className="pb-4">
+
+      {/* why savvy */}
+
+      <div className="container why-savvy">
+        <h2 className="pb-4"><span className="pb-2" style={{borderBottom:"2px solid #00b4eb"}}>Why TaxSavvy...?</span></h2>
+        <div className="row my-2">
+          <div className="col-lg-4 col-md-4 col-sm-4">
+            <img src={thinking} style={{width:"10rem"}} alt="" />
+          </div>
+          <div className="col-lg-8 col-md-8 col-sm-8  d-flex align-items-center">
+            <h6 className="text-start" style={{ fontWeight: "bold" }}>
+              We understand the struggles of the salaried class. We're here to
+              building long-term relationships with our clients.
+            </h6>
+          </div>
+        </div>
+        <div className="row my-2">
+          <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center justify-content-center">
+            <img src={img2why} style={{width:"15rem"}} alt="" />
+          </div>
+          <div className="col-lg-8 col-md-8 col-sm-8  d-flex align-items-center">
+            <div className="ulwhy-savvy">
+              <h6 className="text-start" style={{ fontWeight: "bold" }}>
+                Just like businesses have their trusted financial consultants,
+                TaxSavvy will be your permanent tax advisor. We'll be by your
+                side throughout the year, offering comprehensive services beyond
+                just filing ITR, such as:
+              </h6>
+              <ul>
+                <li>
+                  - Income tax declaration (HRA, 80C, Meal voucher, Insurances
+                  etc.)
+                </li>
+                <li>- maximum income tax refund</li>
+                <li>- PF related assistance</li>
+                <li>
+                  - Access to network of our affiliations such as: loan, credit
+                  card, Insurance, Etc.
+                </li>
+                <li>- Job change tax implications</li>
+                <li>- Investment Advisory</li>
+                <li>- Advance Tax Planning</li>
+                <li>- Salary Structure Designing,</li>
+                <li>- Personalized financial assistance.</li>
+                <li>
+                  - We are just a call or message away anytime during the year
+                </li>
+                <li>&nbsp; and many more...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="row my-2">
+          <div className="col-lg-4 col-md-4 col-sm-4">
+            <img src={partenership} style={{width:"10rem"}} alt="" />
+          </div>
+          <div className="col-lg-8 col-md-8 col-sm-8  d-flex align-items-center">
+            <h6 className="text-start" style={{ fontWeight: "bold" }}>
+              Don't settle for impersonal tax services. Choose TaxSavvy for a
+              personalized, proactive approach to managing your taxes. Let us be
+              your financial companion on the journey to financial success.
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      {/* we enshure */}
+      <div style={{ height: "auto" }} className="pb-4 mt-5">
         <div className="container">
-          <h1 className="text-center">We Ensure</h1>
+          <h1 className="text-center"><span className="pb-2" style={{borderBottom:"2px solid #00b4eb"}}> We Ensure </span></h1>
           <p className="text-center">
             We have special care and love for Salaried Individuals. Because we
             understand your world better! We love to associate with you!
@@ -165,121 +230,15 @@ function Maincon1() {
         </div>
       </div>
 
-      <div className="container my-5" style={{ backgroundColor: "#00b4eb" }}>
-        <h1 className="text-center mb-3">How we work?</h1>
-        <div className="row justify-content-center">
-          <div
-            className="col-lg-2 col-md-3 col-sm-6 p-3 shadow m-1"
-            style={{ borderRadius: "0.6rem", backgroundColor: "white" }}
-          >
-            <p style={{ color: "gray" }} className="text-end">
-              1
-            </p>
-            <div className="text-center">
-              <span
-                className="p-4"
-                style={{ borderRadius: "50%", backgroundColor: "#00b4eb" }}
-              >
-                <BiTask className="fs-1" />
-              </span>
-            </div>
-            <h5 className="my-3 text-center">Approach</h5>
-            <p className="text-center">
-              We associate with you and your amazing experience of ITR filing
-              starts.
-            </p>
-          </div>
-          <div
-            className="col-lg-2 col-md-3 col-sm-6 p-3 shadow m-1"
-            style={{ borderRadius: "0.6rem", backgroundColor: "white" }}
-          >
-            <p style={{ color: "gray" }} className="text-end">
-              2
-            </p>
-            <div className="text-center">
-              <span
-                className="p-4"
-                style={{ borderRadius: "50%", backgroundColor: "#00b4eb" }}
-              >
-                <IoPerson className="fs-1" />
-              </span>
-            </div>
-            <h5 className="my-3 text-center">Dedicated Tax Savvy (Expert)</h5>
-            <p className="text-center">
-              We assign a dedicated Professional Tax Savvy (Expert) for filing
-              ITR and every support.
-            </p>
-          </div>
-          <div
-            className="col-lg-2 col-md-3 col-sm-6 p-3 shadow m-1"
-            style={{ borderRadius: "0.6rem", backgroundColor: "white" }}
-          >
-            <p style={{ color: "gray" }} className="text-end">
-              3
-            </p>
-            <div className="text-center">
-              <span
-                className="p-4"
-                style={{ borderRadius: "50%", backgroundColor: "#00b4eb" }}
-              >
-                <TiDocumentText className="fs-1" />
-              </span>
-            </div>
-            <h5 className="my-3 text-center">Document</h5>
-            <p className="text-center">
-              Savvy will ask for some documents (PAN, Adhar, etc.)
-            </p>
-          </div>
-          <div
-            className="col-lg-2 col-md-3 col-sm-6 p-3 shadow m-1"
-            style={{ borderRadius: "0.6rem", backgroundColor: "white" }}
-          >
-            <p style={{ color: "gray" }} className="text-end">
-              4
-            </p>
-            <div className="text-center">
-              <span
-                className="p-4"
-                style={{ borderRadius: "50%", backgroundColor: "#00b4eb" }}
-              >
-                <GiDiscussion className="fs-1" />
-              </span>
-            </div>
-            <h5 className="my-3 text-center">Discussion</h5>
-            <p className="text-center">
-              Savvy will arrange a convenient time to explain your income,
-              taxes, savings, refunds, and investments.
-            </p>
-          </div>
-          <div
-            className="col-lg-2 col-md-3 col-sm-6 p-3 shadow m-1"
-            style={{ borderRadius: "0.6rem", backgroundColor: "white" }}
-          >
-            <p style={{ color: "gray" }} className="text-end">
-              5
-            </p>
-            <div className="text-center">
-              <span
-                className="p-4"
-                style={{ borderRadius: "50%", backgroundColor: "#00b4eb" }}
-              >
-                <MdFileDownloadDone className="fs-1" />
-              </span>
-            </div>
-            <h5 className="my-3 text-center">Yay! We are done!</h5>
-            <p className="text-center">
-              Savvy will file your Final ITR through the Income Tax Portal and
-              share the final ITR file
-            </p>
-          </div>
-        </div>
-        <div className="text-center py-3">
-          <button className="btn btn-dark ">Connect Us for Better Exp.</button>
-        </div>
-      </div>
+      {/* how we work */}
+      <Work />
+
+      {/* step by step discussion */}
       <div className="container-fluid p-3">
         <h2 className="py-3 mb-4 text-center">
+        <span className="pb-2" style={{borderBottom:"2px solid #00b4eb"}}>
           Step by Step Discusion with Savvy
+          </span>
         </h2>
         <div className="row">
           <div className="col-lg-6 col-sm-12 col-md-6 p-0">
@@ -289,7 +248,7 @@ function Maincon1() {
               alt="image not load"
               style={{
                 borderRadius: "0rem 2rem 0rem 2rem",
-                border: "6px solid #00b4eb",
+                border: "3px solid #00b4eb",
               }}
             />
           </div>
@@ -334,7 +293,7 @@ function Maincon1() {
                 <h4>Deduction Analysis and Discussion</h4>
                 <p className="">
                   Savvy calculates the maximum deduction to lower the taxes
-                  using professional tax hacks.
+                  using <span style={{color:"#00b4eb",fontWeight:"bold"}}>legal tax provisions</span>.
                 </p>
               </div>
             </div>
@@ -378,8 +337,7 @@ function Maincon1() {
                 <h4>ITR filling with Maximum TDS Refund</h4>
                 <p>
                   ITR filling will be done basis the discussion with you with
-                  maximum refund calculation using professional tax saving
-                  hacks.
+                  maximum refund calculation using <span style={{color:"#00b4eb",fontWeight:"bold"}}>legal tax provisions</span>.
                 </p>
               </div>
             </div>
@@ -387,10 +345,13 @@ function Maincon1() {
         </div>
       </div>
 
+      {/* prices and plans */}
       <div className="container-fluid my-4">
         <div className="mb-5">
-        <h1 className="text-center">Prices</h1>
-        <h4 className="text-center">We make sure it doesn't hit your pocket</h4>
+          <h1 className="text-center"> <span className="pb-2" style={{borderBottom:"2px solid #00b4eb"}}>Prices</span></h1>
+          <h4 className="text-center">
+            We make sure it doesn't hit your pocket
+          </h4>
         </div>
         <div className="row justify-content-center ">
           <div
@@ -404,25 +365,24 @@ function Maincon1() {
               having income upto
             </h5>
             <h5 style={{ lineHeight: "1.2rem" }} className="text-center">
-              INR 7 Lacs
+              INR 10 Lacs
             </h5>
             <h1 className="text-center" style={{ fontWeight: "bold" }}>
               <sup style={{ fontSize: "1rem" }}>₹</sup>
-              499
+              699
             </h1>
             <p className="text-center" style={{ lineHeight: "1rem" }}>
               Discussion and Analysis
             </p>
-            <p className="text-center" style={{ lineHeight: "1rem" }}>
-              24/7 Support Available
-            </p>
+            
             <p className="text-center" style={{ lineHeight: "1rem" }}>
               30 minutes post filling QA time credits
             </p>
-
+            <a className="w-100" href="https://wa.me/+917900799900" target="_blank"> 
             <button className="btn btn-lg w-100 mt-3 button-class">
               Book Appointment
             </button>
+            </a>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 p-0 pb-3">
             <div
@@ -437,28 +397,27 @@ function Maincon1() {
                 For Individual
               </h5>
               <h5 style={{ lineHeight: "1.2rem" }} className="text-center">
-                having income INR
+                having income more than 
               </h5>
               <h5 style={{ lineHeight: "1.2rem" }} className="text-center">
-                7-12 Lacs
+              INR 10 Lacs
               </h5>
               <h1 className="text-center" style={{ fontWeight: "bold" }}>
                 <sup style={{ fontSize: "1rem" }}>₹</sup>
-                799
+                899
               </h1>
               <p className="text-center" style={{ lineHeight: "1rem" }}>
                 Discussion and Analysis
               </p>
-              <p className="text-center" style={{ lineHeight: "1rem" }}>
-                24/7 Support Available
-              </p>
+             
               <p className="text-center" style={{ lineHeight: "1rem" }}>
                 30 minutes post filling QA time credits
               </p>
-
+              <a className="w-100" href="https://wa.me/+917900799900" target="_blank">
               <button className="btn btn-lg w-100 btn-light mt-3">
                 Book Appointment
               </button>
+              </a>
             </div>
           </div>
           <div
@@ -481,22 +440,232 @@ function Maincon1() {
                 <p className="pt-2">
                   Not covered with these Plans ? Connect with us , we ensure to
                   offer the best prices depending upon YOUR CASE , we don't let
-                  your prices turn you away.
+                  our prices turn you away.
                 </p>
                 <p>We follow, serve first and pay later</p>
+                <a className="w-100" href="https://wa.me/+917900799900" target="_blank">
                 <button className="btn btn-lg w-100 mt-3 button-class">
                   Contact Us
                 </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      {/* why us */}
       <div className="why-us container-fluid">
         <WhyUs />
       </div>
-      <div
+
+      {/* benifits of filing itr */}
+      <div className="container">
+        <div
+          className="d-flex justify-content-around"
+          style={{
+            borderTop: "1px solid gray",
+            paddingTop: "2rem",
+            paddingBottom: "2rem",
+          }}
+        >
+          <div className="col-lg-6 col-md-6 col-sm-6">
+            <h3 className="text-start" style={{ fontWeight: "bold" }}>
+            <span className="pb-2" style={{borderBottom:"2px solid #00b4eb"}}>
+              Benefits of Filing ITR
+              </span>
+            </h3>
+            <p className="text-start" style={{ color: "gray" }}>
+            Filing your Income Tax Return (ITR) offers a multitude of benefits that extend far beyond mere compliance with tax regulations. By filing your ITR, you not only fulfill your civic duty but also unlock numerous financial advantages. Firstly, filing your ITR ensures compliance with tax laws, helping you avoid penalties and legal complications.
+            </p>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-6 text-end">
+            <img src={retur} alt="" style={{ width: "12rem" }} />
+          </div>
+        </div>
+        <div className="row justify-content-between">
+          <div className="col-lg-6 col-md-6 col-sm-12 ">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Refund of Excess TDS
+                </h5>
+
+                <img src={refund} style={{ width: "2.5rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Through TaxSavvy, enjoy hassle-free processing and quick refunds for any excess TDS deducted, ensuring maximum returns and convenience.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Proof of Income for Visa Sponsorship
+                </h5>
+
+                <img src={visa} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              ITR provides certified income documentation crucial for visa sponsorship, ensuring smooth processing and approval for your international endeavors
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Professional Networking Opportunities
+                </h5>
+
+                <img src={network} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Connect with industry experts, attend exclusive events, and expand your network through TaxSavvy for unparalleled professional growth opportunities.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Access to Government Schemes
+                </h5>
+
+                <img src={government} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Unlock access to diverse government schemes tailored to your needs, facilitated by government for optimized financial benefits and support
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Insurance Premium Discounts
+                </h5>
+
+                <img src={insurance} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Benefit from exclusive insurance premium discounts available through various insurance company, ensuring comprehensive coverage at competitive rates for your peace of mind.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Loan Approval
+                </h5>
+
+                <img src={loan} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Ensure swift loan approvals by furnishing past years' Income Tax Returns, demonstrating financial stability and reliability for expedited processing and favorable outcomes.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Health Insurance Claims
+                </h5>
+
+                <img src={health} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Easily navigate health insurance claims with ITR, ensuring prompt processing and maximum reimbursement for your medical expenses.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Securing Financial Future
+                </h5>
+                <img src={financial} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+Secure your financial future by maintaining a reliable record of Income Tax Returns, ensuring stability and peace of mind for the long term.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div
+              style={{
+                borderTop: "1px solid gray",
+                paddingTop: "2rem",
+                paddingBottom: "2rem",
+              }}
+            >
+              <div className="d-flex justify-content-between">
+                <h5 className="text-start" style={{ fontWeight: "bold" }}>
+                  Record of Income
+                </h5>
+                <img src={frecord} style={{ width: "3rem" }} alt="" />
+              </div>
+              <p className="text-start" style={{ color: "gray" }}>
+              Maintain a comprehensive record of your income effortlessly, ensuring accuracy and compliance for financial management.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div
         className="container-fluid p-3"
         style={{ backgroundColor: "#00b4eb" }}
       >
@@ -507,7 +676,6 @@ function Maincon1() {
         <div className="col-lg-12 col-md-12 col-sm-12 text-center container">
           <img src={plan} style={{}} className="img-fluid" alt="" />
         </div>
-        {/* <h3 className="mt-4">WE ARE HERE TO BRIDGE THIS GAP AND BECOME PERMANET CA / EXPERT FOR SALARIED PERSON</h3> */}
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-5 col-sm-5 d-flex justify-content-center align-items-center">
             <div className="ps-3">
@@ -582,9 +750,9 @@ function Maincon1() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="parallax">
+      {/* <div className="parallax">
         <div className="" style={{ height: "auto", margin: 0 }}>
           <div className="benifits p-4">
             <h1
@@ -629,9 +797,7 @@ function Maincon1() {
             </div>
           </div>
         </div>
-      </div>
-
-      
+      </div> */}
     </>
   );
 }

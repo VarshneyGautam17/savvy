@@ -1,37 +1,36 @@
 import React from 'react'
-import logo from "../images/Savvy Logo final-01.jpg";
+import logo from "../images/Savvy Logo final-01.png";
 import { IoIosMailOpen } from "react-icons/io";
 import { IoIosCall } from "react-icons/io";
-import Qrcode from "../images/TaxSavvy.png";
+import Qrcode from "../images/qr.jpeg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "../Style/Footer.css";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div
         className="footer container-fluid"
-        style={{ backgroundColor: "#00b4eb", height: "auto" }}
+        
       >
         <div className="row justify-content-center">
           <div className="col-lg-3 col-md-6 col-sm-12">
-            <div className="px-5 py-3 text-center">
+            <div className="px-5 py-3 text-center mt-4">
               <img
                 src={logo}
                 className="img-fluid"
                 style={{
                   borderRadius: "1rem 0rem 1rem 0rem",
                   width: "13rem",
-                  height: "5rem",
+                  height: "3.5rem",
                 }}
                 alt=""
               />
             </div>
             <div>
               <p className="px-3 text-center m-0">
-                We provide professional support in the most convenient and user
-                friendly way by assigning a dedicated savvy (expert) for tax
-                return filing and financial services for individuals, SMEs and
-                enterprises with Income Tax Returns, GST, and MORE.
+              we're here to bridge the gap and revolutionize the way salaried
+              individuals manage their Income Tax Return (ITR).
               </p>
             </div>
           </div>
@@ -69,15 +68,13 @@ function Footer() {
               </h2>
               <p className=" footer-links ">
                 <FaArrowRightLong className='me-2' />
-                <a href="">About Us </a>
+                <Link to="/about-us">About Us </Link>
               </p>
               <p className=" footer-links">
                 <FaArrowRightLong className='me-2' />
-                <a href="">Contact Us </a>{" "}
+                <a href="https://wa.me/+917900799900" target="_blank">Contact Us </a>{" "}
               </p>
-              <p className=" footer-links">
-                <FaArrowRightLong className='me-2' /><a href="">Our Services</a>{" "}
-              </p>
+             
             </div>
           </div>
 
@@ -95,7 +92,7 @@ function Footer() {
                 <img
                   src={Qrcode}
                   className="img-fluid"
-                  style={{ width: "10rem", height: "11.5rem" }}
+                  style={{ width: "10rem", height: "10rem" }}
                   alt=""
                 />
               </div>
@@ -109,9 +106,9 @@ function Footer() {
           <div className="col-lg-12 col-md-12 col-sm-12">
             <p className="text-white ps-2 pt-1">
               &copy;All Rights Reserved by{" "}
-              <a href="" style={{ color: "#00b4eb", textDecoration: "none" }}>
+              <Link to="/" style={{ color: "#00b4eb", textDecoration: "none" }}>
                 mytaxsavvy.com
-              </a>
+              </Link>
             </p>
           </div>
          

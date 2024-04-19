@@ -1,30 +1,13 @@
 #grad {
-    background-image: linear-gradient(#00b4eb,white,#00b4eb,white);
+    background-image: linear-gradient(#00c8ff21,white,#00c8ff21,white);
     height: auto;
-    padding-top: 3rem;
+    padding-top: 4rem;
     width: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.social-icons-class{
-    position: fixed;
-    top: 20%;
-    background-color: rgba(0, 0, 0, 0.258);
-    padding-top: 1rem;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
-    padding-bottom: 1rem;
-    border-radius: 0rem 1rem 1rem 0rem;
-}
-.social-icons{
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
-}
-.social-icons:hover{
-    transform: scale(1.1);
-}
+
 .button-class{
     background-color: #00b4eb;
 }
@@ -54,8 +37,13 @@
 }
 .list li{
     color: white;
-    /* font-weight: bold; */
     font-size: 1.3rem;
-    /* text-shadow: 2px 2px 4px black; */
+   
+}
+.ulwhy-savvy li{
+    text-align: left;
 }
 
+.ulwhy-savvy{
+    list-style: none;
+}

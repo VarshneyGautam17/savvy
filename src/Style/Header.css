@@ -1,0 +1,19 @@
+.social-icons-class{
+    position: fixed !important;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.258);
+    padding-top: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    z-index: 20;
+}
+.social-icons{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.social-icons:hover{
+    transform: scale(1.1);
+}
